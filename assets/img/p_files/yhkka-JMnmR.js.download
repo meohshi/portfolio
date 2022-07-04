@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("PolarisReduxSettingsActions",["PolarisGenderActions","PolarisProfessionalAccountSettingsActions","PolarisSettingsActions"],(function(a,b,c,d,e,f,g){"use strict";a=function(a){return function(b){b(d("PolarisSettingsActions").loadLoginActivityPage({data:a}))}};b=function(a){return function(b){var c;b(d("PolarisSettingsActions").loadProfileEditPage(a));b(d("PolarisGenderActions").loadGenderInfo(String(a.form_data.gender),(c=a.form_data.custom_gender)!=null?c:""));b(d("PolarisProfessionalAccountSettingsActions").setProfessionalOnboardingLogger(!1))}};g.setupLoginActivityPage=a;g.setupProfileEditPage=b}),98);
